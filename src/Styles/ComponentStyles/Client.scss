@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.client-card {
+    background: $clientbg;
+    max-width: 336px;
+    padding: 30px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img {
+        border-radius: 100%;
+    }
+
+    .text {
+        color: $colorDarkGrey;
+    }
+
+    .line {
+        height: 5px;
+        width: 100px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+        color: $colorBlack;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .pos {
+        color: $colorDarkGrey;
+        text-transform: capitalize;
+    }
+}
+
+.client-card:hover {
+    background-color: rgba(171, 171, 171, 0.67);
+    
+}

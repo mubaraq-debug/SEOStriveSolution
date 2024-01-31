@@ -1,0 +1,35 @@
+.client-card {
+  background: #f3f7fb;
+  max-width: 336px;
+  padding: 30px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.client-card img {
+  border-radius: 100%;
+}
+.client-card .text {
+  color: #343a40;
+}
+.client-card .line {
+  height: 5px;
+  width: 100px;
+}
+.client-card .name {
+  font-size: 1.5rem;
+  color: #221e1e;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.client-card .pos {
+  color: #343a40;
+  text-transform: capitalize;
+}
+
+.client-card:hover {
+  background-color: rgba(171, 171, 171, 0.67);
+}/*# sourceMappingURL=Client.css.map */
