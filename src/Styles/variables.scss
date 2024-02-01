@@ -21,7 +21,6 @@ $clientbg: #f3f7fb;
 // button-style
 @mixin buttonStyle() {
     padding: 15px 25px;
-    border: none;
     border-radius: 4px;
     display: flex;
     align-items: center;
